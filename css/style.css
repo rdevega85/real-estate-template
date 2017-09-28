@@ -58,12 +58,10 @@ border-style: : 2px solid purple;
 }
 
 @media(max-width: 568px) {
-#myCarousel {
-padding-top: 120px;
-margin: 0;
-float: none;
-width: 100%;
-word-wrap: normal;
+#quote {
+font-size: 10px;
+text-align: center;
+margin: auto;
 }
     
 @media(max-width: 568px) {
