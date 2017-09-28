@@ -59,7 +59,7 @@ border-style: : 2px solid purple;
 
 @media(max-width: 568px) {
 #quote {
-font-size: 14px;
+font-size: 13px;
 }
 @media(max-width: 568px) {
 #myCarousel {
