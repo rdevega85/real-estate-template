@@ -58,11 +58,12 @@ border-style: : 2px solid purple;
 }
 
 @media(max-width: 568px) {
-#quote {
-font-size: 10px;
-text-align: center;
-padding-bottom: 10px;
-margin: auto;    
+#myCarousel {
+padding-top: 120px;
+margin: 0;
+float: none;
+width: 100%;
+word-wrap: normal;
 }
     
 @media(max-width: 568px) {
@@ -72,6 +73,7 @@ margin: 0;
 float: none;
 width: 100%;
 }
+    
 @media(max-width: 568px) {
 .jumbotron {
     display: none;
