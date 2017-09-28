@@ -1,0 +1,74 @@
+body {
+background-color: #486468;
+line-height: 1.8em;
+color: white;
+}
+
+.jumbotron {
+background-image: url("../img/image9.jpg");
+text-align: right;
+background-attachment: fixed;
+background-position: center;
+color: white;
+text-shadow: 2px 2px black;
+}
+
+.jtext {
+font-weight: 900;
+font-size: 30px;
+background-color: gray;
+opacity: 0.8;
+color: white;
+text-shadow: 2px 1px black;
+font-style: italic;
+font-family: "Lato", sans-serif;
+margin-top: 50px;
+}
+
+#myCarousel {
+width: 90%;
+}
+
+#about {
+text-align: justify;
+font-size: 17px;
+}
+
+#contact {
+text-align: center;
+}
+
+#quote {
+margin-top: 50px;
+font-size: 27px;
+background-image: url("../img/image7.jpg");
+padding-left: 40px;
+margin-bottom: 40px;
+width: 90%;
+height: 400px;
+color: #E1DBC6;
+padding-top: 10px;
+background-attachment: fixed;
+font-family: 'Merriweather', serif;
+line-height: 2em;
+}
+
+#quoteText {
+border-style: : 2px solid purple;
+}
+
+@media(max-width: 568px) {
+#quote {
+font-size: 14px;
+}
+@media(max-width: 568px) {
+#myCarousel {
+padding-top: 120px;
+margin: 0;
+float: none;
+width: 100%;
+}
+@media(max-width: 568px) {
+.jumbotron {
+    display: none;
+}
