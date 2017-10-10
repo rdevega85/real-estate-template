@@ -78,7 +78,4 @@ width: 100%;
     display: none;
 }
  
-@media(max-width: 568px) {
-#quote {
-    font-size: 20px;
-}    
+
