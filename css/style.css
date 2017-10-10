@@ -40,21 +40,27 @@ text-align: center;
 
 #quote {
 margin-top: 50px;
-font-size: 27px;
+font-size: 22px;
 background-image: url("../img/image7.jpg");
 padding-left: 40px;
 margin-bottom: 40px;
 width: 90%;
-height: 400px;
+height: 500px;
 color: #E1DBC6;
 padding-top: 10px;
+padding-bottom: 10px;
 background-attachment: fixed;
 font-family: 'Merriweather', serif;
-line-height: 2em;
+line-height: 1.8em;
 }
 
 #quoteText {
 border-style: : 2px solid purple;
+}
+
+.media {
+
+  margin: auto;
 }
 
 @media(max-width: 568px) {
@@ -62,20 +68,26 @@ border-style: : 2px solid purple;
 font-size: 10px;
 text-align: center;
 margin: auto;
-word-wrap: normal;
 }
-    
+
+
+@media(max-width: 1111px) {
+#quote {
+font-size: 14px;
+text-align: center;
+margin: auto;
+}
+
 @media(max-width: 568px) {
 #myCarousel {
 padding-top: 120px;
 margin: 0;
 float: none;
 width: 100%;
+word-wrap: normal;
 }
-    
+
 @media(max-width: 568px) {
 .jumbotron {
     display: none;
 }
- 
-
